@@ -1,0 +1,87 @@
+header{
+    background-color: #305496;
+}
+#heading{
+    padding-left:20px;
+    padding-right: 5px;
+    margin-top: 0px;
+    padding-right: 0;
+}
+#logo{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    padding-bottom: 0;
+}
+#menu_button{
+    font-size: 16px;
+    color: #bfbfbf;
+}
+#header-div{
+    width: 80%;
+    margin: auto;
+}
+#main_body_div{
+    padding-bottom: 50px;
+}
+h1{
+    font-weight: 300;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.col_3 {
+    width: 12%;
+    float:inherit;
+    display: inline-flex;
+}
+#table_item_name{
+    text-align: left;
+}
+
+#menu_button{
+    padding-left: 900px;
+}
+#menu_edit_form{
+    padding-left: 100px;
+    width: 100%;
+}
+#input_textbox{
+    width: 950px;
+    height: 20px;
+}
+#product_name{
+    padding-bottom: 50px;
+}
+#price_input_box{
+    width: 90px;
+    height: 20px;
+}
+#price_field{
+    padding-right: 30px;
+}
+.col_4{
+    width: 19%;
+    display: inline-block;
+}
+#line_3{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#check_box{
+    height: 20px;
+    width: 20px;
+}
+#save_button{
+    height: 60px;
+    width: 140px;
+    background-color: blue;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #bfbfbf;
+  text-align: left;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit-menu-item</title>
+        <link rel="stylesheet" type="text/css" href="style/edit-menu-item.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div id="main_body_div">
+        <header>
+            <div id="header-div">
+                <div class="col_3">
+                    <h1 id="heading" >truYum</h1>
+                </div>
+                <div class="col_3">
+                    <img id="logo" src="images/logo.jpeg">
+                </div>
+                <div class="col_3">
+                    <a id="menu_button" href="menu-item-list-admin.html">Menu</a>
+                </div>
+            </div>
+            </header>
+            <div><h1>Edit Menu Item</h1></div>
+            <form id="menu_edit_form" onsubmit="checkpage()">
+                <div id="product_name" >
+                    <label for="name">Name</label><br>
+                    <input id="input_textbox" type="text" id="name" name="title" min="2" max="65" required><br>
+                </div>
+                <div class="col_4">
+                    <label for="price" >Price</label><br>
+                    <input id="price_input_box" type="text" id="price" name="price" required>
+                </div>
+                <div class="col_4">
+                <label for="active" name="inStock" >Active</label><br>
+                    <input type="radio" name="yes" id="yes" checked>
+                        <label for="yes">Yes</label>
+                    <input type="radio" name="no" id="no">
+                        <label for="no">No</label>
+                </div>
+                <div class="col_4">
+                    <label for="dateoflaunch" >Date of Launch</label><br>
+                    <input type="date" id="dateoflaunch" name="dateOfLaunch" required>
+                </div>
+                <div class="col_4">
+                    <label for="category"  name="category">Category</label><br>
+                    <select>
+                        <option value="staters">Staters</option>
+                        <option value="main_course">Main Course</option>
+                        <option value="dessert">Dessert</option>
+                        <option value="drinks">Drinks</option>
+                    </select>
+                </div><br>
+                <div id="line_3">
+                    <input id="check_box" type="checkbox" name="free_delivery" id="free_delivery">
+                    <label for="free_delivery">Free Delivery</label>
+                </div>
+               <button id="save_button" type="submit" name="save" id="save" onclick="edit-menu-item-status.html">Save</button><!-- button not working-->
+            </form>
+            </div>
+        <footer>
+            <p>Copyright &copy;2019</p>
+        </footer>
+    
+    </body>
+</html>
